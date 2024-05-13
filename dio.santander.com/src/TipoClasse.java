@@ -1,4 +1,4 @@
-package edu.eduardo.learn.classe;
+
 
 public class TipoClasse {
     public static void main(String[] args) {
@@ -7,7 +7,7 @@ public class TipoClasse {
         String nomeCompleto = NomeCompleto(nome, sobreNome);
         String aprovacao = ValidaNota(6);
 
-        String[] nomes = { "Eduardo", "Katherina" };
+        // String[] nomes = { "Eduardo", "Katherina" };
 
         System.out.println(nomeCompleto);
         System.out.println(aprovacao);
