@@ -1,3 +1,4 @@
+package conceitosFundamentais;
 
 
 public class TipoClasse {
@@ -7,11 +8,17 @@ public class TipoClasse {
         String nomeCompleto = NomeCompleto(nome, sobreNome);
         String aprovacao = ValidaNota(6);
 
-        // String[] nomes = { "Eduardo", "Katherina" };
+        String[] nomes = { "Eduardo", "Katherina" };
+
+        for(String nomeAluno: nomes){
+            System.out.println(nomeAluno);
+        }
 
         System.out.println(nomeCompleto);
         System.out.println(aprovacao);
     }
+
+    
 
     public static String NomeCompleto(String nome, String sobreNome) {
         return nome.concat(" ").concat(sobreNome);

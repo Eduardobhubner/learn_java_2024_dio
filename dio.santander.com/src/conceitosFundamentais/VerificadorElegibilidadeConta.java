@@ -1,3 +1,4 @@
+package conceitosFundamentais;
 import java.util.Scanner;
 
 // Aqui é definido uma classe chamada VerificadorElegibilidadeConta:
