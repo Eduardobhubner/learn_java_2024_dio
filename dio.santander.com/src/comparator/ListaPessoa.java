@@ -13,16 +13,16 @@ public class ListaPessoa {
         this.pessoaList = new ArrayList<>();
     }
 
-    public List<Pessoa> OrdenarPessoaPorAltura(){
+    //public List<Pessoa> OrdenarPessoaPorAltura(){
 
-        if (pessoaList.isEmpty()){
-            throw new RuntimeException("Lista esta vazia!");
-        }
-        List<Pessoa> pessoaOrdenadoPorAltura = new ArrayList<>();
-        pessoaOrdenadoPorAltura.sort(Comparator.comparingDouble(Pessoa));
+        //if (pessoaList.isEmpty()){
+            //throw new RuntimeException("Lista esta vazia!");
+        //}
+        //List<Pessoa> pessoaOrdenadoPorAltura = new ArrayList<>();
+        //pessoaOrdenadoPorAltura.sort(Comparator.comparingDouble(Pessoa));
 
 
-    }
+    //}
 
 
 }
